@@ -1,0 +1,42 @@
+body {
+    background-color: #276cb0;
+}
+
+#game-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#puzzle-screen, #victory-screen {
+    display: none;
+}
+
+#puzzle-title, #victory-message {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#puzzle-description, #victory-description {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#puzzle-answer {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#submit-answer-btn, #next-room-btn {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

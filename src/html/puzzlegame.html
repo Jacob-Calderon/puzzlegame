@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div id="game-screen">
+        <div id="puzzle-screen">
+            <h2 id="puzzle-title">Number sequence puzzle</h2>
+            <p id="puzzle-description">What number comes next in the sequence: 1, 3, 5, 7, ___?</p>
+            <form>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="puzzle-answer" placeholder="Enter your answer">
+                </div>
+                <button type="submit" class="btn btn-primary" id="submit-answer-btn">Submit</button>
+            </form>
+        </div>
+        <div id="victory-screen">
+            <h2 id="victory-message">Congratulations!</h2>
+            <p id="victory-description">You have completed the puzzle and unlocked the door to the next room.</p>
+            <button type="button" class="btn btn-primary" id="next-room-btn">Next room</button>
+        </div>
+    </div>
+</div>
+<script src="../javascript/app.js"></script>
+</body>
+</html>
